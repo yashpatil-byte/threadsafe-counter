@@ -46,12 +46,18 @@ print("Final counter:", counter)
 
 ⚙️ How to Run
 Clone the repo
+   ```python
    git clone https://github.com/yashpatil-byte/threadsafe-counter.git
    cd threadsafe-counter
+   ```
 Run the Python script
-   python3 WeeklyProject.py
+   ```python
+python3 WeeklyProject.py
+   ```
 Check the log file
+```python
    cat log.txt
+```
 
 🔒 Why Locks Are Important
 Python threads share the same memory space.
