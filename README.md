@@ -42,6 +42,8 @@ threads = [threading.Thread(target=increment, args=(i,)) for i in range(5)]
 
 print("Final counter:", counter)
 
+```
+
 ⚙️ How to Run
 Clone the repo
    git clone https://github.com/yashpatil-byte/threadsafe-counter.git
